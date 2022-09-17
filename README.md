@@ -5,6 +5,6 @@ I tried to see if I was good enough to spoof the design of a website --starting 
 
 I believe I succeeded. For entertaiment purposes only.
 
---I still need to fix the responsive design @media stuff --
+--I'll try to see what more I can do later--
 
 
