@@ -23,6 +23,8 @@ body {
 
 .gallery {
     display:flex;
+    flex-wrap: wrap;
+    gap:2px;
     justify-content:space-between;
     padding-bottom:26px;
     width:100%;
@@ -157,4 +159,39 @@ p {
     margin-left: 30px;
     max-width: 645px;
     z-index:1;
+}
+
+@media (max-width:1000px) {
+    .words {
+        margin: auto;
+        padding-top: 200px;
+        width:95%
+    }
+
+    #hero {
+        margin-right: 18%;
+    }
+    
+    .gallery {
+        justify-content: space-evenly;
+    }
+
+}
+
+@media (max-width:630px) {
+    .words {
+        width:90%;
+        padding:300px 10px 0 10px;
+        margin:auto;
+    }
+
+    h1 {
+        font-size: 100px;
+    }
+
+    #hero {
+        margin:0;
+        width:100%;
+    }
+
 }
