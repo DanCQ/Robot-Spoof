@@ -150,6 +150,13 @@ p {
     width:100%;
 }
 
+.wallet:hover {
+    background:radial-gradient(circle, indigo 35%,cyan, transparent 95% ),
+    repeating-linear-gradient(black 1%, black 2%, chartreuse 3%, chartreuse 4%);
+    color:#DFFF00;
+    text-shadow: 0px -4px 2px black;
+}
+
 .words {
     position: relative;
     margin-left: 30px;
