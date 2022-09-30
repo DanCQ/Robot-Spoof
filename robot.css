@@ -147,15 +147,15 @@ p {
     font-size: 20px;
     margin:25px 0 5px 0;
     padding: 12px 80px;
+    transition: 1s ease-in-out 350ms;
     width:100%;
 }
 
 .wallet:hover {
-    background: radial-gradient(circle, transparent 0.5%, indigo 1%, indigo 35%,cyan, transparent 95% ),
-    repeating-linear-gradient(175deg, black 0.5%, black 1%, transparent 1.5%, transparent 2%),
-    repeating-linear-gradient( black 1%, black 2%, chartreuse 3%, chartreuse 4%);
-    color:#DFFF00;
-    text-shadow: 0px -4px 2px black;
+    background: radial-gradient(circle, yellow 1%, orange 2%, firebrick 12%, red 35%, black 65%, black 80%, grey 84%, silver 81%, silver 89%, grey 91.5%, silver 92%, transparent 93.5%),
+    repeating-linear-gradient(60deg, black 0.1%, black 0.2%, transparent 0.3%, transparent 0.4%),
+    repeating-linear-gradient(1200deg, gray 0.1%, black 0.2%, gray 0.3%, black 0.4%);
+    color: transparent;
 }
 
 .words {
@@ -192,7 +192,6 @@ p {
     
     h1 {
         font-size: 80px;
-       
     }
 
     #hero {
