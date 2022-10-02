@@ -7,8 +7,10 @@ body {
     background-color:black;
     color:rgb(210, 210, 210);
     font-family: sans-serif;
+    height:100%;
     line-height: 1.5;
     margin:0;
+    width:100%;
 }
 
 #amount {
@@ -71,6 +73,11 @@ header {
     padding-top:10px;
     margin:0; 
     width:120px;
+}
+
+main {
+    min-height:100vh;
+    min-width:100vw;
 }
 
 .mint {
