@@ -13,7 +13,7 @@ function minter() {
         if (i >= 4444) {
             clearInterval(print);
             i = 0;
-            setTimeout(function() { crypto() }, 10000);
+            setTimeout(function() { minter() }, 10000);
         }
     }
     print = setInterval(brr, 100);
