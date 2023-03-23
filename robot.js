@@ -21,7 +21,7 @@ function minter() {
     
     function brr(){
         i += 1;
-        mint.innerHTML = i;
+        mint.textContent = i;
 
         if (i >= 4444) {
             clearInterval(print);
